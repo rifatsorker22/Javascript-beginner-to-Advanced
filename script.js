@@ -1,57 +1,33 @@
-// Data Types are 2 types
+// Operators
 
-// Premetive 
+// Arithmetic Operators
 
-//     String
-const str = "Rifat"
+let num1 = 10
 
-console.log(typeof str)
-//     Number
-const num = 23.3
+let num2 = 5 * 5 * 5
 
-console.log(typeof num)
-//     Boolean
- 
-const bool = true
+let sum = num1 + num2
 
-console.log(typeof bool)
-//     undifined
-function x(arr){
-  
-}
-console.log(x())
-// null
+let sub = num1 - num2
 
-const n = null
+let multiplication = num1 * num2
 
-console.log(typeof n)
+let division = num1 / num2
+
+let expo = num1 ** num1
+
+let modu = 100 / 10
+
+let increment = ++num1
+
+let decrement = --num1
 
 
-
-//     Symbol
-
-const sym = Symbol()
-
-console.log(typeof sym)
-
-//  Non-Premetive
-
-//  Object
-
-//     Object
-const obj = {
-    name:'rifat',
-    age:23
-}
-const obj2 = new Object()
-
-console.log(obj,obj2)
-
-//     Array
- const arr = ['rifat',12122,null,true]
-
- console.log(typeof arr)
-//     Date
-  const date = Date()
-
-  console.log(date)
+console.log(sum)
+console.log(sub)
+console.log(multiplication)
+console.log(division)
+console.log(expo)
+console.log(modu)
+console.log(increment)
+console.log(decrement)
