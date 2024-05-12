@@ -32,6 +32,16 @@ console.log(modu)
 console.log(increment)
 console.log(decrement)
 
+// Assignment Oparetors
+let number = 40
+
+let x = 10
+
+let result = number != x
+
+console.log(result)
+console.log(x += number) // x = x + number
+console.log(number -= x) // number  = number - x
 
 // logical Oparetors
 
