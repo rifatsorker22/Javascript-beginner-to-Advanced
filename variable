@@ -1,1 +1,20 @@
+var name = 'Rifat' // Forget var 
 
+let number  = 23 // let is updated version of var
+
+let age; // changable
+
+age  = 23
+
+const name  = "Lubna" // Fixed // initialize with const in 99% cases
+
+const arr = [1,2,3,4] // we can store array
+
+const obj = {
+name:"Rifat",
+age:23
+} // we can store object
+
+const x = ()=>{
+// we can store function
+}
