@@ -1,17 +1,14 @@
-// Assignment Operator 
+let number = 22
 
-let number  = 40
+let number2 = 23
+
+console.log(number === number2) // ===
+
+console.log(number !== number2)  // !==
+
+console.log(number > number2)
+
+console.log(number <= number2)
 
 
-let x = 10
-
-
-let result  = number /= x
-
-console.log( x += number) // x = x + number
-
-console.log( number -= x) // number = number -1
-
- number = number * x
-
-console.log(result)
+console.log(number >= number2)
