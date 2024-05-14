@@ -58,3 +58,35 @@ console.log(number > number2)
 console.log(number <= number2)
 
 console.log(number >= number2)
+// Conditional (Ternary) Operator
+
+let age  = 17
+
+let status = (age >= 18) ? "Adult" : "Teen"
+
+console.log(status)
+
+
+function isEven(num){
+  return (num % 2=== 0 ) ? 'Even' : 'Odd'
+}
+
+console.log(isEven(20))
+
+
+function isName(value){
+  let x = (typeof value === "string") ? value : 'This is not a string'
+  console.log(x)
+}
+
+isName("Rifat")
+
+let list1 = [1,2,3]
+
+let list2 = [4,5,6]
+
+let condition = false
+
+let combination = (condition) ? list1.concat(list2) : 'Condition is false'
+
+console.log(combination)
